@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+
+# Flask cache
+instance/
+*.db
+*.sqlite3
+
+# System
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Python environment
+*.log
+
+# Oracle client libraries (if any)
+*.dll
+*.so
+*.dylib
+
+# Secrets (you should ideally move credentials to .env files)
+db.py
+.env
